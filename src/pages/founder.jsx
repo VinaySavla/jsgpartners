@@ -86,7 +86,7 @@ function Founder() {
             </div>
             <div className="row gy-4 justify-content-center my-4">
               <div className="col-lg-4" style={{ height: '100%', marginTop: '30px' }}>
-                <img src="assets/img/ParichayProfile.png" className="Image-fluid" alt="" style={{ height: '100%' }} />
+                <img src="assets/img/MohsinProfile.jpg" className="Image-fluid" alt="" style={{ height: '100%' }} />
               </div>
               <div className="col-lg-5 content" style={{ height: '100%', marginTop: '-50px' }}>
                 <h2>Mohsin Ghaniwala</h2>

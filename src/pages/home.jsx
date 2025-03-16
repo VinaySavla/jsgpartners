@@ -118,7 +118,7 @@ function Home() {
         <div style={{marginLeft:100}} className="text-left">
           <h2 style={{
             fontSize: '14px',
-            color: '#1DA4BA', /* Changed color */
+            color: '#fff', /* Changed color */
             textTransform: 'uppercase',
             fontFamily: '"Poppins", Arial, sans-serif',
             fontWeight: 800,
@@ -192,7 +192,7 @@ function Home() {
                     rel="noopener noreferrer"
                     className="contact-item"
                   >
-                    <i className="location-icon fas fa-map-marker-alt" style={{ color: '#1DA4BA' }}></i>
+                    <i className="location-icon fas fa-map-marker-alt" style={{ color: '#fff' }}></i>
                     <span>
                       JSG Partners, Office No. 303, B- Wing, 03rd Floor, Oberoi Chambers, 
                       Off New Link Rd, Veera Desai Industrial Estate, Andheri West, 
@@ -214,7 +214,7 @@ function Home() {
                     href="tel:+918655415028" 
                     className="contact-item"
                   >
-                    <i className="phone-icon fas fa-phone" style={{ color: '#1DA4BA' }}></i>
+                    <i className="phone-icon fas fa-phone" style={{ color: '#fff' }}></i>
                     <span>+91 86554 15028</span>
                   </a>
                   <a 
@@ -230,7 +230,7 @@ function Home() {
                     href="mailto:parichay@sc-legal.in" 
                     className="contact-item"
                   >
-                    <i className="email-icon fas fa-envelope" style={{ color: '#1DA4BA' }}></i>
+                    <i className="email-icon fas fa-envelope" style={{ color: '#fff' }}></i>
                     <span>parichay@sc-legal.in</span>
                   </a>
                   <a 

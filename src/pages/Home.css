@@ -92,14 +92,14 @@ body, html {
   display: inline-block;
   min-width: 8ch;
   position: relative;
-  color: #1DA4BA; /* Changed color */
+  color: #fff; /* Changed color */
 }
 
 .cursor {
   display: inline-block;
   width: 3px;
   height: 1em;
-  background-color: #1DA4BA; /* Changed color */
+  background-color: #fff; /* Changed color */
   margin-left: 2px;
   animation: blink 1s infinite;
   position: absolute;
@@ -227,7 +227,7 @@ body, html {
 }
 
 .footer-section h3 {
-  color: #1DA4BA; /* Changed color */
+  color: #fff; /* Changed color */
   font-size: 1.5rem;
   margin-bottom: 1.5rem;
   font-weight: 600;
