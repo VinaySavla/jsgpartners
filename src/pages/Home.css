@@ -191,7 +191,7 @@ body, html {
 }
 
 .nav-link:hover, .nav-item.active .nav-link {
-  color: #1DA4BA !important; /* Changed color */
+  color: #ababab !important; /* Changed color */
 }
 
 .header {
@@ -200,7 +200,7 @@ body, html {
 }
 
 .header.scrolled {
-  background-color: #1DA4BA !important;
+  background-color: #ababab !important;
   padding: 0.5rem 1rem;
 }
 /* Additional animations */
@@ -267,7 +267,7 @@ body, html {
 }
 
 .practice-areas li:hover {
-  color: #1DA4BA; /* Changed color */
+  color: #ababab; /* Changed color */
 }
 
 .contact-info .address {
@@ -311,7 +311,7 @@ body, html {
 }
 
 .footer-links li a:hover {
-  color: #1DA4BA; /* Changed color */
+  color: #ababab; /* Changed color */
 }
 
 @media (max-width: 992px) {
@@ -402,24 +402,24 @@ body, html {
 }
 
 .action-icon:hover {
-  color: #1DA4BA;
+  color: #ababab;
   transform: scale(1.1);
 }
 
 /* Icon specific colors on hover */
 .contact-item-wrapper:hover .location-icon,
 .contact-item-wrapper:hover .fa-map {
-  color: #1DA4BA;
+  color: #ababab;
 }
 
 .contact-item-wrapper:hover .phone-icon,
 .contact-item-wrapper:hover .fa-phone-square {
-  color: #1DA4BA;
+  color: #ababab;
 }
 
 .contact-item-wrapper:hover .email-icon,
 .contact-item-wrapper:hover .fa-envelope-square {
-  color: #1DA4BA;
+  color: #ababab;
 }
 
 

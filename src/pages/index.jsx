@@ -26,38 +26,6 @@ const Index = () => {
 
   return (
     <>
-      <header id="header" className="header d-flex align-items-center fixed-top" style={{ backgroundColor: '#1DA4BA' }}>
-        <div className="container-fluid d-flex align-items-center justify-content-between">
-          <Link to="/" className="logo d-flex align-items-center me-auto me-lg-0">
-            <img 
-              src="/assets/img/jsg_logo.png" 
-              alt="jsg Logo" 
-              style={{ 
-                width: '70px'
-              }} 
-            />
-          </Link>
-          <nav id="navbar" className={`navbar ${isMobileNavActive ? 'mobile-nav-active' : ''} mx-auto`}>
-            <ul>
-              <li><a href="home">Home</a></li>
-              <li><a href="founder">Partners</a></li>
-              <li><a href="areaOfPractice">Area of Practice</a></li>
-              <li><a href="careers">Career</a></li>
-              <li><a href="contact">Contact</a></li>
-            </ul>
-            <div className="header-social-links">
-              <a href="https://www.linkedin.com/in/sc-legal" className="linkedin" style={{ color: '#1DA4BA' }}>
-                <i className="bi bi-linkedin"></i>
-              </a>
-            </div>
-          </nav>
-          <i 
-            className={`mobile-nav-toggle ${isMobileNavActive ? 'bi bi-x mobile-nav-hide' : 'bi bi-list mobile-nav-show'}`}
-            onClick={toggleMobileNav}
-          ></i>
-        </div>
-      </header>
-
       <div className="disclaimer-container" style={{ paddingTop: '100px', maxHeight: '80vh', overflowY: 'auto' }}>
         <div 
           className="disclaimer-box"
@@ -66,6 +34,7 @@ const Index = () => {
             margin: '0 auto',
             backgroundColor: '#fff',
             padding: '30px',
+            paddingTop: '0px',
             borderRadius: '4px',
             boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)',
             border: '1px solid #e0e0e0'
@@ -83,7 +52,7 @@ const Index = () => {
             <p style={{
               fontSize: '24px',
               fontWeight: '600',
-              color: '#1DA4BA', /* Changed color */
+              color: '#ababab', /* Changed color */
               margin: 0
             }}>
               Disclaimer
@@ -162,7 +131,7 @@ const Index = () => {
               onClick={(e) => !isAccepted && e.preventDefault()}
               style={{
                 padding: '10px 30px',
-                backgroundColor: '#1DA4BA', // Changed button color
+                backgroundColor: '#ababab', // Changed button color
                 color: '#333',
                 borderRadius: '4px',
                 textDecoration: 'none',
@@ -200,7 +169,7 @@ const Index = () => {
       </main>
 
       <div className="text-center">
-        <button type="submit" style={{ backgroundColor: '#1DA4BA' }}>Send</button>
+        <button type="submit" style={{ backgroundColor: '#ababab' }}>Send</button>
       </div>
 
       <Link
@@ -232,7 +201,7 @@ const Index = () => {
       <style>
         {`
           .header-social-links a:hover {
-            background-color: #1DA4BA !important;
+            background-color: #ababab !important;
             color: white !important;
           }
         `}

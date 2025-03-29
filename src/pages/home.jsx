@@ -86,7 +86,7 @@ function Home() {
       <header 
         id="header" 
         className="header d-flex align-items-center fixed-top" 
-        style={{ backgroundColor: '#1DA4BA' }}
+        style={{ backgroundColor: '#ababab' }}
       >
         <div className="container-fluid d-flex align-items-center justify-content-between">
           <a href="home" className="logo d-flex align-items-center me-auto me-lg-0">

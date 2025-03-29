@@ -127,7 +127,7 @@
   color: #fff;
 }
 .ftco-footer .logo a span {
-  color: #1DA4BA;
+  color: #ababab;
   font-size: 16px !important;
   display: block;
 }
@@ -145,10 +145,10 @@
   color: #fff;
 }
 .ftco-footer .ftco-footer-widget ul li a:hover {
-  color: #1DA4BA;
+  color: #ababab;
 }
 .ftco-footer .ftco-footer-widget ul li a:hover span {
-  color: #1DA4BA;
+  color: #ababab;
 }
 .ftco-footer .ftco-footer-widget .btn-primary {
   background: #fff !important;
@@ -174,7 +174,7 @@
   position: relative;
 }
 .ftco-footer .opening-hours h4 {
-  color: #1DA4BA;
+  color: #ababab;
   font-size: 16px;
 }
 .ftco-footer .opening-hours p span {
@@ -216,5 +216,5 @@
 }
 .footer-small-nav > li a:hover,
 .footer-small-nav > li a:focus {
-  color: #1DA4BA;
+  color: #ababab;
 }
