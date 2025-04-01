@@ -20,7 +20,7 @@ function Careers() {
 
   return (
     <div>
-      <header id="header" className="header d-flex align-items-center fixed-top" style={{ backgroundColor: '#ababab' }}>
+      <header id="header" className="header d-flex align-items-center fixed-top" style={{ backgroundColor: '#fff' }}>
       <div className="container-fluid d-flex align-items-center justify-content-between">
   
         <a href="home" className="logo d-flex align-items-center  me-auto me-lg-0">
@@ -89,7 +89,7 @@ function Careers() {
                     <div className="sent-message">Your details has been sent. Thank you!</div>
                   </div>
                   <div className="text-center">
-                    <button type="submit" style={{ backgroundColor: '#ababab' }}>Send</button>
+                    <button type="submit" style={{ backgroundColor: '#fff' }}>Send</button>
                   </div>
                 </form>
               </div>
@@ -102,7 +102,7 @@ function Careers() {
       <style>
         {`
           .header-social-links a:hover {
-            background-color: #ababab !important;
+            background-color: #fff !important;
             color: white !important;
           }
         `}

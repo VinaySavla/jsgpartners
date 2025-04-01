@@ -21,7 +21,7 @@ function Founder() {
 
   return (
     <div>
-      <header id="header" className="header d-flex align-items-center fixed-top" style={{ backgroundColor: '#ababab' }}>
+      <header id="header" className="header d-flex align-items-center fixed-top" style={{ backgroundColor: '#fff' }}>
         <div className="container-fluid d-flex align-items-center justify-content-between">
 
           <a href="home" className="logo d-flex align-items-center me-auto me-lg-0">

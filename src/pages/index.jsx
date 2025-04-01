@@ -52,7 +52,7 @@ const Index = () => {
             <p style={{
               fontSize: '24px',
               fontWeight: '600',
-              color: '#ababab', /* Changed color */
+              color: '#000', /* Changed color */
               margin: 0
             }}>
               Disclaimer
@@ -169,7 +169,7 @@ const Index = () => {
       </main>
 
       <div className="text-center">
-        <button type="submit" style={{ backgroundColor: '#ababab' }}>Send</button>
+        <button type="submit" style={{ backgroundColor: '#fff' }}>Send</button>
       </div>
 
       <Link
@@ -201,7 +201,7 @@ const Index = () => {
       <style>
         {`
           .header-social-links a:hover {
-            background-color: #ababab !important;
+            background-color: #fff !important;
             color: white !important;
           }
         `}

@@ -19,8 +19,8 @@
 /* Colors */
 :root {
   --color-default: #000;
-  --color-primary: #ababab;
-  --color-secondary: #ababab;
+  --color-primary: #fff;
+  --color-secondary: #fff;
 }
 
 /* Smooth scroll behavior */
@@ -43,7 +43,7 @@ a {
 }
 
 a:hover {
-  color: #ababab;
+  color: #fff;
   text-decoration: none;
 }
 
@@ -80,7 +80,7 @@ h6 {
   width: 120px;
   height: 1px;
   display: inline-block;
-  background: #ababab;
+  background: #fff;
   margin: 4px 10px;
 }
 
@@ -134,7 +134,7 @@ h6 {
 }
 
 .page-header .cta-btn:hover {
-  background: #ababab;
+  background: #fff;
 }
 
 /*--------------------------------------------------------------
@@ -161,7 +161,7 @@ h6 {
 }
 
 .scroll-top:hover {
-  background: #ababab;
+  background: #fff;
   color: #000;
 }
 
@@ -904,7 +904,7 @@ h6 {
 }
 
 .gallery-single .portfolio-info .btn-visit:hover {
-  background: #ababab;
+  background: #fff;
 }
 
 .gallery-single .portfolio-description h2 {
@@ -950,7 +950,7 @@ h6 {
 
 .gallery-single .portfolio-description .testimonial-item .quote-icon-left,
 .gallery-single .portfolio-description .testimonial-item .quote-icon-right {
-  color: #ababab;
+  color: #fff;
   font-size: 26px;
   line-height: 0;
 }
@@ -1206,7 +1206,7 @@ h6 {
 }
 
 .contact .php-email-form button[type=submit]:hover {
-  background: #ababab;
+  background: #fff;
 }
 
 @-webkit-keyframes animate-loading {
@@ -1288,7 +1288,7 @@ h6 {
 }
 
 .hero .btn-get-started:hover {
-  background: #ababab;
+  background: #fff;
 }
 
 @media (max-width: 768px) {

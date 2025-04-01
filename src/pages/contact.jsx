@@ -21,7 +21,7 @@ function Contact() {
   return (
     <div>
   
-  <header id="header" className="header d-flex align-items-center fixed-top" style={{ backgroundColor: '#ababab' }}>
+  <header id="header" className="header d-flex align-items-center fixed-top" style={{ backgroundColor: '#fff' }}>
   <div className="container-fluid d-flex align-items-center justify-content-between">
 
     <a href="home" className="logo d-flex align-items-center me-auto me-lg-0">
@@ -75,7 +75,7 @@ function Contact() {
 
           <div className="col-lg-3">
             <div className="info-item d-flex">
-              <i className="bi bi-geo-alt flex-shrink-0" style={{ color: '#000', backgroundColor: '#ababab' }}></i>
+              <i className="bi bi-geo-alt flex-shrink-0" style={{ color: '#000', backgroundColor: '#fff' }}></i>
               <div>
                 <h4 style={{ color: '#000' }}>Location:</h4>
                 <p><a href="https://goo.gl/maps/57eZuHDK9RCJ3JWJ6" style={{ color: '#000' }}>JSG Partners, Office No. 303, B- Wing, 03rd Floor, Oberoi Chambers, Off New Link Rd, Veera Desai Industrial Estate, Andheri West, Mumbai, Maharashtra 400053</a></p>
@@ -85,7 +85,7 @@ function Contact() {
 
           <div className="col-lg-3">
             <div className="info-item d-flex">
-              <i className="bi bi-envelope flex-shrink-0" style={{ color: '#000', backgroundColor: '#ababab' }}></i>
+              <i className="bi bi-envelope flex-shrink-0" style={{ color: '#000', backgroundColor: '#fff' }}></i>
               <div>
                 <h4 style={{ color: '#000', }}>Email:</h4>
                 <p><a href="mailto:parichay@sc-legal.in" style={{ color: '#000' }}>parichay@sc-legal.in</a></p>
@@ -95,7 +95,7 @@ function Contact() {
 
           <div className="col-lg-3">
             <div className="info-item d-flex">
-              <i className="bi bi-phone flex-shrink-0" style={{ color: '#000', backgroundColor: '#ababab' }}></i>
+              <i className="bi bi-phone flex-shrink-0" style={{ color: '#000', backgroundColor: '#fff' }}></i>
               <div>
                 <h4 style={{ color: '#000' }}>Call:</h4>
                 <p><a href="tel:+91-8655415028" style={{ color: '#000' }}>+91 86554 15028</a></p>
@@ -129,7 +129,7 @@ function Contact() {
                 <div className="sent-message">Your message has been sent. Thank you!</div>
               </div>
               <div style={{ marginBottom:50}} className="text-center">
-                <button type="submit" style={{ backgroundColor: '#ababab' }}>Send Message</button>
+                <button type="submit" style={{ backgroundColor: '#fff' }}>Send Message</button>
               </div>
             </form>
           </div>
@@ -156,7 +156,7 @@ function Contact() {
   <style>
     {`
       .info-item i:hover {
-        background-color: #ababab;
+        background-color: #fff;
         color: white;
       }
     `}

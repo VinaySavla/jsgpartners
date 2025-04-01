@@ -23,7 +23,7 @@ function AreaOfPractice() {
       <header 
         id="header" 
         className="header d-flex align-items-center fixed-top" 
-        style={{ backgroundColor: '#ababab' }}
+        style={{ backgroundColor: '#fff' }}
       >
         {/* ... existing header content ... */}
         <div className="container-fluid d-flex align-items-center justify-content-between">
@@ -199,7 +199,7 @@ function AreaOfPractice() {
           }
 
           .service-card:hover .icon-container {
-            background-color: #ababab !important;
+            background-color: #fff !important;
           }
 
           .service-card:hover .icon-container i {
