@@ -1,4 +1,2 @@
 # JSG Partners
 
-
-
