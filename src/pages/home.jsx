@@ -90,7 +90,7 @@ function Home() {
       >
         <div className="container-fluid d-flex align-items-center justify-content-between">
           <a href="home" className="logo d-flex align-items-center me-auto me-lg-0">
-            <img src="assets/img/jsg_logo.png" alt="" style={{ height: "80px", marginLeft: "20px" }} />
+            <img src="assets/img/jsg_logo.png" alt="" style={{ height: "80px", width:'50px', marginLeft: "20px" }} />
           </a>
 
           <nav id="navbar" className={`navbar ${isMobileNavActive ? 'mobile-nav-active' : ''}`} style={{ backgroundColor: isMobileNavActive ? 'white' : 'transparent', color: 'black' }}>
@@ -164,21 +164,19 @@ function Home() {
               <h3>About JSG Partners</h3>
               <div className="company-info">
                 <h4>JSG Partners<span>A Law Firm</span></h4>
-                <p>JSG Partners is a full-service law firm committed to delivering exceptional legal solutions tailored to meet the diverse needs of clients. Our firm is built on the collective expertise and dynamic experience of our three founding partners — Advocate Arshiya Jame, Advocate Parichay Sharma and Advocate Mohsin Ghaniwala. Together, we bring a powerful combination of knowledge, skill, and dedication, ensuring that each case is handled with the utmost care, strategy, and insight.</p>
+                <p>JSG Partners is a full-service law firm committed to delivering exceptional legal solutions tailored to meet the diverse needs of clients. Our firm is built on the collective expertise and dynamic experience of our three founding partners — Advocate Arshiya James, Advocate Parichay Sharma and Advocate Mohsin Ghaniwala. Together, we bring a powerful combination of knowledge, skill, and dedication, ensuring that each case is handled with the utmost care, strategy, and insight.</p>
               </div>
             </div>
 
             <div className="footer-section">
               <h3>Practice Areas</h3>
               <ul className="practice-areas">
-                <li>Litigation</li>
-                <li>Banking & Finance</li>
-                <li>Real Estate</li>
-                <li>Family & Matrimonial Disputes</li>
-                <li>White Collar Crimes</li>
-                <li>Media & Entertainment</li>
-                <li>Dispute Resolution & Arbitration</li>
-                <li>Restructuring & Insolvency</li>
+                <li>Civil Litigation</li>
+                <li>Banking and Financial Law</li>
+                <li>Corporate Law</li>
+                <li>Family Law</li>
+                <li>Criminal Law</li>
+                <li>General Legal Advisory</li>
               </ul>
             </div>
 
@@ -199,14 +197,21 @@ function Home() {
                       Mumbai, Maharashtra 400053
                     </span>
                   </a>
+                 
+                </div>
+                <div className="contact-item-wrapper">
                   <a 
-                    href="https://maps.google.com/?q=SC+Legal+Office+No.+303+B+Wing+03rd+Floor+Oberoi+Chambers+Off+New+Link+Rd+Veera+Desai+Industrial+Estate+Andheri+West+Mumbai+Maharashtra+400053"
-                    target="_blank"
+                    href="https://g.co/kgs/JRCtXdn" 
+                    target="_blank" 
                     rel="noopener noreferrer"
-                    className="action-icon"
+                    className="contact-item"
                   >
-                    
+                    <i className="location-icon fas fa-map-marker-alt" style={{ color: '#fff' }}></i>
+                    <span>
+                      Office no. 205, 2nd Floor, A-Wing, Shreepati Coronet, Nesbit Road, Opposite Mazgaon Court, Mazgaon, Mumbai - 400010.
+                    </span>
                   </a>
+                 
                 </div>
                 
                 <div className="contact-item-wrapper">
@@ -217,27 +222,15 @@ function Home() {
                     <i className="phone-icon fas fa-phone" style={{ color: '#fff' }}></i>
                     <span>+91 86554 15028</span>
                   </a>
-                  <a 
-                    href="tel:+918655415028"
-                    className="action-icon"
-                  >
-                    
-                  </a>
                 </div>
                 
                 <div className="contact-item-wrapper">
                   <a 
-                    href="mailto:parichay@sc-legal.in" 
+                    href="mailto:advocateparichay@gmail.com" 
                     className="contact-item"
                   >
                     <i className="email-icon fas fa-envelope" style={{ color: '#fff' }}></i>
-                    <span>parichay@sc-legal.in</span>
-                  </a>
-                  <a 
-                    href="mailto:parichay@sc-legal.in"
-                    className="action-icon"
-                  >
-                    
+                    <span>advocateparichay@gmail.com</span>
                   </a>
                 </div>
               </div>
