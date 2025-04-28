@@ -66,7 +66,7 @@ const Index = () => {
             fontFamily: 'Open Sans, sans-serif'
           }}>
             The Bar Council of India does not permit advertisement or solicitation by advocates in any form or
-            manner. By accessing this website, <a href='https://jsgpartners.in'>jsgpartners.in</a>, you acknowledge
+            manner. By accessing this website, <a style={{color: 'rgb(102, 102, 102)', textDecoration:'underline'}} href='https://jsgpartners.in'>jsgpartners.in</a>, you acknowledge
             and confirm that you are seeking information relating to JSG Partners on your own accord and that
             there has been no form of solicitation, advertisement or inducement by JSG Partners or its members.
             The content of this website is for informational purposes only and should

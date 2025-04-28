@@ -82,6 +82,16 @@ function Contact() {
               </div>
             </div>
           </div>
+          
+          <div className="col-lg-3">
+            <div className="info-item d-flex">
+              <i className="bi bi-geo-alt flex-shrink-0" style={{ color: '#000', backgroundColor: '#fff' }}></i>
+              <div>
+                <h4 style={{ color: '#000' }}>Location:</h4>
+                <p><a href="https://g.co/kgs/JRCtXdn" style={{ color: '#000' }}>Office no. 205, 2nd Floor, A-Wing, Shreepati Coronet, Nesbit Road, Opposite Mazgaon Court, Mazgaon, Mumbai - 400010.</a></p>
+              </div>
+            </div>
+          </div>
 
           <div className="col-lg-3">
             <div className="info-item d-flex">
