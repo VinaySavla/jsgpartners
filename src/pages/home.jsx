@@ -226,11 +226,11 @@ function Home() {
                 
                 <div className="contact-item-wrapper">
                   <a 
-                    href="mailto:advocateparichay@gmail.com" 
+                    href="mailto:info@jsgpartners.in" 
                     className="contact-item"
                   >
                     <i className="email-icon fas fa-envelope" style={{ color: '#fff' }}></i>
-                    <span>advocateparichay@gmail.com</span>
+                    <span>info@jsgpartners.in</span>
                   </a>
                 </div>
               </div>

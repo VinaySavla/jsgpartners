@@ -98,7 +98,7 @@ function Contact() {
               <i className="bi bi-envelope flex-shrink-0" style={{ color: '#000', backgroundColor: '#fff' }}></i>
               <div>
                 <h4 style={{ color: '#000', }}>Email:</h4>
-                <p><a href="mailto:parichay@sc-legal.in" style={{ color: '#000' }}>parichay@sc-legal.in</a></p>
+                <p><a href="mailto:info@jsgpartners.in" style={{ color: '#000' }}>info@jsgpartners.in</a></p>
               </div>
             </div>
           </div>
@@ -118,7 +118,7 @@ function Contact() {
         <div className="row justify-content-center mt-4">
 
           <div className="col-lg-9">
-            <form action="forms/contact.php" method="post" role="form" className="php-email-form">
+            <form action="#" method="post" role="form" className="php-email-form">
               <div className="row">
                 <div className="col-md-6 form-group">
                   <input type="text" name="name" className="form-control" id="name" placeholder="Your Name" required />

@@ -80,15 +80,15 @@ function Founder() {
                   </div>
                 </div> */}
               </div>
-              <div className="col-lg-4" style={{ height: '100%', marginTop: '30px' }}>
+              <div className="col-lg-4" style={{ height: '50rem', marginTop: '30px' }}>
                 <img src="assets/img/ParichayProfile.png" className="Image-fluid" alt="" style={{ height: '100%' }} />
               </div>
             </div>
             <div className="row gy-4 justify-content-center my-4">
-              <div className="col-lg-4" style={{ height: '100%', marginTop: '30px' }}>
+              <div className="col-lg-4" style={{ height: '50rem', marginTop: '30px' }}>
                 <img src="assets/img/MohsinProfile.jpg" className="Image-fluid" alt="" style={{ height: '100%' }} />
               </div>
-              <div className="col-lg-5 content" style={{ height: '100%', marginTop: '-50px' }}>
+              <div className="col-lg-5 content" style={{ height: '100%', marginTop: '50px' }}>
                 <h2>Mohsin Ghaniwala</h2>
                 <p className="fst-italic py-3">
                   Mr. Mohsin Ghaniwala is a dynamic and driven first-generation lawyer, carving a niche for himself in the legal arena with his expertise in Criminal Law, Civil Litigation, and General Corporate Matters, including drafting and negotiating agreements. Known for his sharp legal acumen and client-centric approach, Mr. Ghaniwala is committed to delivering practical and effective legal solutions tailored to meet the unique needs of his clients.
@@ -104,6 +104,25 @@ function Founder() {
                     </ul>
                   </div>
                 </div> */}
+              </div>
+            </div>
+            <div className="row gy-4 justify-content-center my-4">
+              <div className="col-lg-5 content" style={{ height: '100%', marginTop: '-50px' }}>
+                <h2>Arshiya James</h2>
+                <p className="fst-italic py-3">
+                Ms. Arshiya James is a dedicated and dynamic advocate specializing in Family Law, Civil Law and Criminal Law. As a first-generation lawyer, Ms. James brings a unique blend of fresh perspective and innovation to her work with a strong commitment to serving her clients with empathy and diligence. Ms. James believes in building strong client relationships based on trust and open communication. She takes the time to understand each client's unique circumstances and legal goals. She is committed to making the legal process accessible and understandable for her clients, empowering them to make informed decisions during challenging times. Whether it’s navigating sensitive family matters, resolving civil disputes, or defending criminal cases, Ms. James is a steadfast advocate for her clients’ rights and interests. Advocate Arshiya James is not just a lawyer; she is a compassionate ally who stands by her clients every step of the way.
+                </p>
+                {/* <div className="row">
+                  <div className="col-lg-12">
+                    <ul>
+                      <li><i className="bi bi-chevron-right"></i> <strong>Phone:</strong> <span><a href="tel:+91-8655415028">+91 86554 15028</a></span></li>
+                      <li style={{ marginLeft: '-20px' }}><i className="bi bi-chevron-right"></i> <strong>Email:</strong> <span style={{ wordBreak: 'break-word' }}><a href="mailto:parichay@sc-legal.in">parichay@sc-legal.in</a></span></li>
+                    </ul>
+                  </div>
+                </div> */}
+              </div>
+              <div className="col-lg-4" style={{ height: '50rem', marginTop: '30px' }}>
+                <img src="assets/img/ArshiyaProfile.jpg" className="Image-fluid" alt="" style={{ height: '100%' }} />
               </div>
             </div>
           </div>
