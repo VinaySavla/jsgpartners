@@ -24,7 +24,7 @@ function Careers() {
       <div className="container-fluid d-flex align-items-center justify-content-between">
   
         <a href="home" className="logo d-flex align-items-center  me-auto me-lg-0">
-          <img src="assets/img/jsg_logo.png" alt="" style={{height:"80px", marginLeft:"20px"}} />
+          <img src="assets/img/jsg_logo.png" alt="" style={{ height: "80px", width:'50px', marginLeft: "20px" }} />
         </a>
   
         <nav id="navbar" className={`navbar ${isMobileNavActive ? 'mobile-nav-active' : ''}`} style={{ backgroundColor: isMobileNavActive ? 'white' : 'transparent', color: 'black' }}>

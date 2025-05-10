@@ -25,7 +25,7 @@ function Contact() {
   <div className="container-fluid d-flex align-items-center justify-content-between">
 
     <a href="home" className="logo d-flex align-items-center me-auto me-lg-0">
-      <img src="assets/img/jsg_logo.png" alt="" style={{ height: "80px", marginLeft: "20px" }} />
+      <img src="assets/img/jsg_logo.png" alt="" style={{ height: "80px", width:'50px', marginLeft: "20px" }} />
     </a>
 
     <nav id="navbar" className={`navbar ${isMobileNavActive ? 'mobile-nav-active' : ''}`} style={{ backgroundColor: isMobileNavActive ? 'white' : 'transparent', color: 'black' }}>
@@ -99,6 +99,9 @@ function Contact() {
               <div>
                 <h4 style={{ color: '#000', }}>Email:</h4>
                 <p><a href="mailto:info@jsgpartners.in" style={{ color: '#000' }}>info@jsgpartners.in</a></p>
+                <p><a href="mailto:parichay@jsgpartners.in" style={{ color: '#000' }}>parichay@jsgpartners.in</a></p>
+                <p><a href="mailto:mohsin@jsgpartners.in" style={{ color: '#000' }}>mohsin@jsgpartners.in</a></p>
+                <p><a href="mailto:arshiya@jsgpartners.in" style={{ color: '#000' }}>arshiya@jsgpartners.in</a></p>
               </div>
             </div>
           </div>
